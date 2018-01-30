@@ -23,6 +23,7 @@
     "glslify": "^6.1.0",
     "is-video": "^1.0.1",
     "json5": "^0.5.1",
+    "live-plugin-manager": "^0.10.9",
     "lodash": "^4.17.4",
     "osc-min": "^1.1.1",
     "pify": "^3.0.0",
@@ -63,8 +64,7 @@
     "build": "webpack",
     "watch": "webpack -w",
     "serve": "node lib/server.js",
-    "prepublish": "npm run ci",
-    "precommit": "npm run ci && git add client/bundle.js"
+    "precommit": "git add client/bundle.js"
   },
   "ava": {
     "require": [
